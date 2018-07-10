@@ -1,0 +1,48 @@
+body{
+    background-image: url("../images/firefly.jpg");
+    background-color: black;
+    background-size: 100%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+.card{
+    width:50%;
+    height: calc(50vw *.75);
+    border: 3px black solid;
+    background-image: url("../images/paper-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   
+}
+.gameText{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.titleText{
+    font-size: 4vw;
+    text-align: center;
+    padding: 3vw;
+}
+.secondaryText{
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+}
+.gameButton{
+    width:50%;
+    height:20%;
+    border: 2px solid black;
+    position:relative;
+    top:50%; 
+    left:25%;
+    margin: 5% 0 5% 0;
+    font-size: 4vw;
+    
+}
+.gameButton:hover{
+    background-color: bisque;
+}
