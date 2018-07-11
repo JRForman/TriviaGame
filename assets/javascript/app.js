@@ -32,7 +32,7 @@ function bootGame() {
     $(".main").append(startCard);
 
     var startTitle = $("<div>");
-    startTitle.addClass("gameText").addClass("titleText").text("Welcome to Serenity Trivia");
+    startTitle.addClass("gameText").addClass("titleText").text("Welcome to Firefly Trivia");
     $(startCard).append(startTitle);
 
     var startText = $("<div>");
